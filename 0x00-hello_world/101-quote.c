@@ -1,7 +1,7 @@
-/*
+/**
  *  101-quote.c
  *  program that prints piece of art is useful\" - Dora Korpar, 2015-10-19
-  */
+ */
 
 #include <stdio.h>
 
