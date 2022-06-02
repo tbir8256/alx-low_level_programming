@@ -1,21 +1,23 @@
-/**
- *  101-quote.c
- *  program that prints piece of art is useful\" - Dora Korpar, 2015-10-19
- */
-
 #include <stdio.h>
 
+#include <unistd.h>
+
+
+
 /**
- * main - My entry point for my program
- * Return: returns 0
+ * main - print quote
+ * Description: prints Dors's quote
+ * Return: Always 1 (Success)
  */
+
+
 
 int main(void)
 
 {
 
-		printf("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
+		write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 
-			return (0);
+			return (1);
 
 }
