@@ -6,7 +6,7 @@
 int main(void)
 {
 
-ar c;
+char c;
 
 int i;
 
