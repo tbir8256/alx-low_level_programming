@@ -3,7 +3,7 @@
  * main - this program display the size of the different data types
  * return: 0 for main function
  */
-void main(void)
+int main(void)
 {
 
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
