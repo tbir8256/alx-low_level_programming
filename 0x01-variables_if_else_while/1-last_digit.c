@@ -6,7 +6,8 @@
 
 /**
  * Discription: main - checks the last digit
- * Rerurn- reruns 0 to be successful */
+ * Rerurn- reruns 0 to be successful 
+ */
 
 /* betty style doc for function main goes there */
 int main(void)
@@ -26,7 +27,7 @@ int main(void)
 	}
 	else if (x < 6 && x > 0)
 	{
-		printf("Last digit of %d is %d and is less that 6 and not 0\n", n, x);
+		printf("Last digit of %d is %d and is less that 6 and not 0\in", n, x);
 	}
 	/* your code goes there */
 	return (0);
