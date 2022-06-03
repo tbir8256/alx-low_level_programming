@@ -5,8 +5,9 @@
 #include <stdio.h>
 
 /* more headers goes there */
-/*main - checks if the random no. is +ve,-ve or 0*/
-/*Return: return 0*/
+/*Description: main - checks if the random no. is +ve,-ve or 0
+ *Return: return 0
+ */
 /* betty style doc for function main goes there */
 int main(void)
 {
