@@ -1,19 +1,15 @@
 #include <stdio.h>
 /**
  * main - this program display the size of the different data types
- * return: 0 for main function
+ * Return: 0 on success. Error otherwise
  */
 int main(void)
+
 {
-
 char c;
-
 int i;
-
 long l;
-
 long long ll;
-
 float f;
 
 printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(c));
