@@ -6,11 +6,12 @@
 
 /**
  * Discription: main - checks the last digit
- * Return: returns 0 to be successful 
+ * Return: returns 0 to be successful
  */
 int main(void)
 {
 	int n, x, y;
+	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	x = n % 10;
