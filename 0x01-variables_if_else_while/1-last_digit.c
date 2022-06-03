@@ -6,8 +6,9 @@
 
 /**
  * Discription: main - checks the last digit
- * Return: returns 0 to be successful
+ * Return: returns 0 to be successful;
  */
+
 int main(void)
 {
 	int n, x, y;
