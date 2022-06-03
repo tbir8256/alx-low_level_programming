@@ -1,14 +1,11 @@
 #include <stdio.h>
 #include <unistd.h>
-
 /**
- * Description: prints Dors's quote
- * Return: Always 1 (Success)
+ *main - print size data
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-		write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
-
-			return (1);
-
+fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
+return(1);
 }
