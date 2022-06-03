@@ -4,9 +4,9 @@
 
 #include <stdio.h>
 
-/*
+/**
  * Description: main - checks if the random no. is +ve,-ve or 0
- * Return: return 0
+ * Return: returns 0 to be sucessful
  */
 int main(void)
 {
