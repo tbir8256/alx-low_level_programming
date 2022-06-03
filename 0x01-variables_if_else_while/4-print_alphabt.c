@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main-print letters
  *
  * Description: print the lettere in alphabet
