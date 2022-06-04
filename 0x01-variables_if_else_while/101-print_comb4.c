@@ -5,7 +5,7 @@
  *
  * Description: prints three digits
  *
- * Retrun:returns 0 (sucessful)
+ * Return:returns 0 (sucessful)
  */
 
 int main(void)
