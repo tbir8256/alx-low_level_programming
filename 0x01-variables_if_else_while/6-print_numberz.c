@@ -1,10 +1,8 @@
 #include <stdio.h>
 
 /**
- * main-print single digit numbers
- * 
+ * main-print single digit numbers 
  * Description: print single
- *
  * Return: return 0 (success)
  */
 
