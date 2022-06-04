@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main- prints three digits
+ * main - prints three digits
  *
  * Description: prints three digits
  *
