@@ -3,13 +3,17 @@
 #include <stdio.h>
 
 /**
- * Discription: main - checks the last digit
+ * main - checks the last digit
+ *
+ * Discription: checks the last digit
+ *
  * Return: returns 0 (success)
  */
 
 int main(void)
 {
 int n, x;	
+
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 x = n % 10;
