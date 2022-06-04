@@ -2,7 +2,7 @@
 
 /**
  * main - print single digit numbers
- * 
+ *
  * Description: print single
  *
  * Return: return 0 (success)
