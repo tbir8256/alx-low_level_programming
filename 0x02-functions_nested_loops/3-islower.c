@@ -3,8 +3,8 @@
 /*
  * _islower -> checksif the character is lower case
  * _islower -> check character
- * @C: a character argument
- */
+ * Return: returns 0
+ * /
 int _islower(int c)
 {
 return (c >= 'a' && c <= 'z');
