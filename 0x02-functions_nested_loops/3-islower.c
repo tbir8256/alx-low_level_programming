@@ -2,7 +2,7 @@
 
 /**
  * _islower -> checks if the character is lower
- * @C: a character argument 
+ * @c: a character argument
  * Return: returns 0
  */
 
