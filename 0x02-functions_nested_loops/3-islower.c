@@ -2,6 +2,7 @@
 
 /*
  * _islower -> checkslower case and returns 1 or 0
+ * islower -> check 
  * @C: a character argument
  */
 int _islower(int c)
