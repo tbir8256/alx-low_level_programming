@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *
- *
+ * print_time_table - prints the time table
+ * @n: takes in an integer
  */
 
 void print_times_table(int n)
