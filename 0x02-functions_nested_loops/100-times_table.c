@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_time_table - prints the time table
+ * print_times_table - prints the time table
  * @n: takes in an integer
  */
 
