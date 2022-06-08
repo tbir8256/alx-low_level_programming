@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * jack_bauer -> print 24 hour
  */
 
