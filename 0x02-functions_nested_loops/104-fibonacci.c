@@ -1,16 +1,16 @@
 #include <stdio.h>
+
 /**
  * main - main function
  * Return: 0
  */
-
 int main(void)
-
 {
 int counter = 2;
 float a = 1;
 float b = a + 1;
 float c = a + b;
+
 printf("%.0f, ", a);
 printf("%.0f, ", b);
 while (counter < 98)
@@ -25,6 +25,6 @@ if (counter < 98)
 printf(", ");
 }
 }
-printf('\n');
+printf("\n");
 return (0);
 }
