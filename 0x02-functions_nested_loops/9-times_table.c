@@ -1,4 +1,4 @@
-#include "head.h"
+#include "main.h"
 /*
  *times_table -> prints the 9 times begining from 0
  *@void: no argument
