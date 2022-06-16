@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * _strcar - function strcat
+ * _strcat - function strcat
  * @dest: first number
  * @src: second number
  * Return: a string
