@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * _strncat - append some sha
+ * _strncat - appedn some chars
  * @dest number 1
  * @src: number 2
  * @n: number 3
