@@ -13,7 +13,7 @@ while (dest[l])
 l++;
 for (i = 0; src[i] != 0; i++)
 {
-dest[l] = srd[i];
+dest[l] = src[i];
 l += 1;
 }
 dest[l] = '\0';
