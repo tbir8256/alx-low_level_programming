@@ -2,8 +2,8 @@
 #include <string.h>
 
 /**
- * _strncpy - copy
- * @dest: number 1
+ * _strncat - append some sha
+ * @dest number 1
  * @src: number 2
  * @n: number 3
  * Return: string
