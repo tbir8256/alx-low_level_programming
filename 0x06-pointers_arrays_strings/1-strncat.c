@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * _strncat - appednd some chars
+ * _strncat -> appednd some charx
  * @dest number 1
  * @src: number 2
  * @n: number 3
