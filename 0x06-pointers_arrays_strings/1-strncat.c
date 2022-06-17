@@ -3,7 +3,7 @@
 
 /**
  * _strncat -> appednd some charx
- * @dest number 1
+ * @dest: number 1
  * @src: number 2
  * @n: number 3
  * Return: string
