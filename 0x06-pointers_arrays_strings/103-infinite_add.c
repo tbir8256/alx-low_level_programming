@@ -14,9 +14,8 @@ for (i = 0; n1[i]; i++)
 	;
 for (j = 0; n2[j]; j++)
 	;
-for (i > size_r || j > size_r)
+if (i > size_r || j > size_r)
 	return (0);
-m = 0;
 for (i -= 1, j -= 1, k = 0; k < size_r - 1; i--, j--, k++)
 {
 n = m;
@@ -34,7 +33,7 @@ r[k] = n % 10 + '0';
 r[k] = '\0';
 if (i >= 0 || j >= 0 || m)
 	return (0);
-	for (k -= 1, l = 0; l < K; k--, l++)
+for (k -= 1, l = 0; l < k; k--, l++)
 {
 m = r[k];
 r[k] = r[l];
