@@ -4,6 +4,7 @@
  * infinite_add - adds two  number
  * @n1: first number
  * @n2: second number
+ * @size_r: size of the parameter
  * @r: buffer for result
  * Return: returns r or 0
  */
