@@ -20,7 +20,7 @@ return (1 + _strlen_recursion(++s));
  * @l: position
  * Return: returns boolean
  */
-int p1(char *s, int l))
+int p1(char *s, int l)
 {
 if (l < 1)
 {
