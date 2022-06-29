@@ -1,4 +1,5 @@
-include "main.h"
+#include "main.h"
+#include <stddef.h>
 
 int word_len(char *str);
 int count_words(char *str);
@@ -59,7 +60,7 @@ return (NULL);
 words = count_words(str);
 if (words == 0)
 return (NULL);
-strings = malloc(sizeof(char *) * (words + 1));
+strings = (char *) malloc(sizeof(char *) * (words + 1));
 if (strings == NULL)
 return (NULL);
 for (w = 0; w < words; w++)
