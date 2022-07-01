@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 
-/*
+/**
  * string_nconcat - string concatenation
  * @s1: parameter 1
  * @s2: parameter 2
