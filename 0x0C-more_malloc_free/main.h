@@ -15,7 +15,7 @@ int _putchar(char c);
  * error_exit - prints error with _putchar
  * and exits with 98
  * Return: returns 98 with & exit(98)
- */
+ *
 int error_exit(void)
 {
 char *err;
@@ -26,14 +26,14 @@ _putchar(err[i]);
 _putchar('\n');
 }
 
-/**
+
  * 101-mul.c
  * check_number - checks if string
  * has only numbers
  * @str: string to check
  * Return: returns 0 f true and
  * 1 if false
- */
+
 int check_number(char *str)
 {
 while (*str != '\0')
@@ -45,11 +45,11 @@ str++;
 return (0);
 }
 
-/**
+
  * _length - get the length of strings
  * @str: string to get length
  * Return: length of string
- */
+
 int _length(char *str)
 {
 int i = 0;
@@ -57,5 +57,5 @@ while (str[i] != '\0')
 i++;
 return (i);
 }
-
+*/
 #endif
