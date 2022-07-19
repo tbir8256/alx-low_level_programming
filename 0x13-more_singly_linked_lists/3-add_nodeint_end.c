@@ -26,4 +26,3 @@ temp = temp->next;
 temp->next = new_node;
 return (new_node);
 }
-}
