@@ -12,6 +12,6 @@ unsigned long int setnum = 1;
 setnum <<= index;
 if (index > sizeof(unsigned long int) * 8)
 return (-1);
-(*n) = (*n) | ~(setnum);
+(*n) = (*n) | (setnum);
 return (1);
 }
