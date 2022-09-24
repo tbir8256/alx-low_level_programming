@@ -1,65 +1,39 @@
 #include "hash_tables.h"
 
 /**
- * new_node - allocates a new node with checking.
- * @key: the string key.
- * @value: the string value.
- * Return: the node or NULL.
- */
-hash_node_t *new_node(const char *key, const char *value)
-{
-hash_node_t *node;
-node = calloc(1, sizeof(hash_node_t));
-if (!node)
-return (0);
-node->key = strdup(key);
-if (!node->key)
-{
-free(node);
-return (0);
-}
-node->value = strdup(value);
-if (!node->value)
-{
-free(node->key);
-free(node);
-return (0);
-}
-return (node);
-}
-
-
-/**
- * hash_table_set - adds an element to a hash table.
- * @ht: pointer to hash table.
- * @key: the string key.
- * @value: the string value.
- * Return: 1 on success, otherwise 0.
+ * hash_table_set - adds an element to the hash table
+ * @ht: hash table data structure of hash_table_t
+ * @key: the key string
+ * @value: the value corresponding to the key
+ * Return: 1 if it succeeded, 0 on failure
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
-hash_node_t *node = NULL, *head;
-unsigned long int index;
-if (!ht || !key || !*key || !value)
+hash_node_t *new_node = NULL, *tmp = NULL;
+unsigned long int index = 0;
+if (ht == NULL || ht->array == NULL || ht->size == 0
+|| key == NULL || strlen(key) == 0)
 return (0);
 index = key_index((const unsigned char *)key, ht->size);
-head = ht->array[index];
-while (head)
+tmp = ht->array[index];
+while (tmp != NULL)
 {
-if (!strcmp(key, head->key))
+if (strcmp(tmp->key, key) == 0)
 {
-char *_value = strdup(value);
-if (!_value)
+free(tmp->value);
+tmp->value = strdup((char *)value);
+if (tmp->value == NULL)
 return (0);
-free(head->value);
-head->value = _value;
 return (1);
 }
-head = head->next;
+tmp = tmp->next;
 }
-node = new_node(key, value);
-if (!node)
+new_node = malloc(sizeof(new_node));
+if (new_node == NULL)
 return (0);
-node->next = ht->array[index];
-ht->array[index] = node;
+new_node->key = strdup((char *)key);
+new_node->value = strdup((char *)value);
+new_node->next = ht->array[index];
+ht->array[index] = new_node;
 return (1);
+}
