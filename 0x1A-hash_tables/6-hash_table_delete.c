@@ -16,11 +16,11 @@ hash_node_t *node = NULL, *temp = NULL;
 if (ht && ht->size && ht->array)
 {
 for (; i < ht->size; ++i)
-{	  
+{
 node = ht->array[i];
 if (node)
 {
-if (node->next)		
+if (node->next)
 {
 node = node->next;
 while (node)
