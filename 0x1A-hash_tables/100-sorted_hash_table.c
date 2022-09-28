@@ -195,7 +195,7 @@ tmp = ht->stail;
 while (tmp != NULL)
 {
 if (flag == 1)
-intf(", ");
+printf(", ");
 printf("'%s': '%s'", tmp->key, tmp->value);
 flag = 1;
 tmp = tmp->sprev;
@@ -230,3 +230,4 @@ ht->array = NULL;
 ht->shead = ht->stail = NULL;
 ht->size = 0;
 free(ht);
+}
